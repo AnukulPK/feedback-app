@@ -187,7 +187,8 @@ input:focus {
 
 .about-link {
     position: absolute;
-    bottom: 20px;
+    /* bottom: 20px; */
+    bottom: 0;
     right: 20px;
     color: #fff;
     cursor: pointer;
