@@ -1,8 +1,8 @@
-import FeedbackItem from './FeedbackItem';
+import FeedbackItem from "./FeedbackItem";
 // import PropTypes from 'prop-types';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useContext } from 'react';
-import FeedbackContext from '../context/FeedbackContext';
+import { motion, AnimatePresence } from "framer-motion";
+import { useContext } from "react";
+import FeedbackContext from "../context/FeedbackContext";
 
 const FeedbackList = () => {
   const { feedback } = useContext(FeedbackContext);
